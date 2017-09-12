@@ -1,4 +1,7 @@
-
+[alt="Brand Logo"] {
+	width: 70px;
+	height: 70px;
+}
 #landingBody {
 	font-size: 16px;
 	padding-top: 55px;
@@ -10,7 +13,12 @@
 .navbar-default {
 	background-color: white;
 }
-a[href="pages/signupPage.html"], button[data-target="#login"] {
+.navbar {
+	border-radius: 0;
+    /*height: 100px;*/
+}
+a[href="pages/signupPage.html"], button[data-target="#login"],
+a[href="pages/userPage.html"] {
 	width: 100px;
 }
 [class*=fa] {
@@ -77,27 +85,37 @@ h2 {
 	margin: 0;
 }
 [data-target="#login"],
-[href="pages/signupPage.html"],
-[data-target="#contact"] {
+[href="pages/signupPage.html"] {
 	color: #0E1C36;
 }
 .landing-hr {
 	margin: 20px;
 }
 
-
+footer {
+	margin-top: 10px;
+}
+.footer-company-name {
+	margin-top: 15px;
+}
+[data-target="#contact"] {
+	margin-top: 5px;
+	background-color: #000;
+	color: white;
+}
 /*--------------------------------------- signupPage ---------------------------------------*/
 #singupPage {
 	margin: 1% auto;
 }
 #singupPageBody {
-	background-color: #111828;
+	background-color: #595555;
 }
 .singupPage-panel {
 	margin: 30px 0 50px 0;
 	padding-top: 2%;
-	padding-bottom: 6%;
-	background-color: #111828;
+	padding-bottom: 3%;
+	background-color: grey;
+	border-color: #fff;
 }
 .btn-twitter, 
 .btn-facebook,
@@ -110,6 +128,120 @@ h2 {
 
 
 
+/*--------------------------------------- friendPage ---------------------------------------*/
 
+.Pagenavbar {
+	border-style: none;
+	background-color: black;
+}
+.vertical-span {
 
+}
+[alt="Brand"] {
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 100%;
+	border: 1px solid white;
+	border-radius: 180px;
+}
+.navbar-brand {
+	padding-top: 10px;
+}
+.nav-userPage {
+	padding: 5px;
+}
+[href="userPage.html"] {
+	color: white;
+}
+.friend-profile, .friend-left {
+	padding: 0;
+}
+[class*="profile-image"] {
+	width: 100%;
+	min-height: 260px;
+	margin-bottom: 20px;
+	border-radius: 50%;
+	border: 1px solid white;
+	padding: 2px;
+}
+.username {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.vline {
+	height: 450px;
+	width: 1px;
+	border-right: 0.5px solid white;
+	opacity: 0.2;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+.hr-gallery {
+	opacity: 0.4;
+}
+.friend-gallery {
+	border-top: 1px solid #F4EFEF;
+	border-left: 1px solid #F4EFEF;
+	border-right: 1px solid #F4EFEF;
+	padding-top: 15px;
+}
+.friend-gallery-image {
+	max-width: 400px;
+	width: auto;
+	max-height: 400px;
+	margin-bottom: 20px;
+	border: 1px solid black;
+	text-align: center;
+}
+.friend-right {
+	margin-left: 12px;
+}
+.comment-section {
+	padding: 0 15px;
+}
+[class*="gallery"] {
+	margin-bottom: 2%;
+}
+#friendPageBody {
+	background-color: #281414;	
+}
+#friendPage {
+	color: white;
+}
 
+/*--------------------------------------- strangerPage ---------------------------------------*/
+#strangerPageBody {
+	background-color: #31316B;
+}
+.addFriend-well {
+	background-color: #f9f7f1;
+}
+.addFriend {
+	color: initial;
+	text-align: center;
+	margin: 0 auto;	
+}
+.toTop {
+	color: white;
+}
+
+/*--------------------------------------- userPage ---------------------------------------*/
+.user-gallery-image {
+	width: 100%;
+}
+
+.user-profile-image {
+	width: 50%;
+	min-height: 260px;
+	margin-top: 20px;
+	border-radius: 50%;
+	border: 1px solid white;
+	padding: 2px;
+}
+.user-profile {
+	padding: 0;
+}
+.user-profile > h1 {
+	margin: 10px auto;
+}
