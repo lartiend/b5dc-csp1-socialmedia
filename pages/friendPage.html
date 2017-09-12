@@ -18,14 +18,12 @@
 
 	<nav class="navbar navbar-default Pagenavbar ">
 		<div class="container-fluid">
-<!-- 			<div class="navbar-header">
-				<a class="navbar-brand" href="#">
-					<img src="../img/favicon-logo.png" alt="Brand Logo">
-					<img src="../img/try.png" alt="Brand Logo">
-				</a>
-			</div> -->
+			<a href="#">
+				<img src="../img/favicon-logo.png" alt="Brand Logo">
+			</a>
 			<ul class="nav navbar-right nav-pills nav-userPage">
-				<li><a href="userPage.html"><span>| </span>Home</a></li>
+				<li><a href="userPage.html"> | Home</a></li>
+				<li><a href="../index.html" id="logout"> | Logout</a></li>
 			</ul>
 		</div>
 	</nav>
@@ -35,7 +33,7 @@
 
 			<div class="col-md-3 col-sm-3 friend-left">
 				<div class="container-fluid friend-profile">
-					<img class="friend-profile-image" src="../img/friend/jane-doe.jpg" alt="Jane Doe"> 
+					<img class=" img-responsive img-circle friend-profile-image" src="../img/friend/jane-doe.jpg" alt="Jane Doe"> 
 					<h2 class="text-center" >Jane Doe</h2>
 					<div class="text-center username" >
 						<p><a href="#">@jane.doe</a>
@@ -54,29 +52,29 @@
 
 			<div class="col-md-1 col-sm-1 vline"></div> 
 
+
 			<div class="col-md-8 col-sm-8 friend-right">
 				<div class="container-fluid friend-gallery">
 
 					<div class="gallery-1">
-						<div class="row">
+						<div class="posts row">
 							<div class="col-md-4 col-sm-4 pull-left">
-								<img class="friend-gallery-image" src="../img/friend/jane-doe1.jpg" alt="Jane Doe 1">
+								<img class="img-thumbnail img-responsive friend-gallery-image" src="../img/friend/jane-doe1.jpg" alt="Jane Doe 1">
 							</div>	
-							<div class="col-md-5 col-sm-4 pull-right">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							<div class="col-md-4 col-sm-4 pull-right">
+								<p><a href="#">@peanut.butter</a> : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et  Duis ...
 								</p>
+
+								<p># of HEARTS (icon) <span># of SHARES (icon)</span></p>
+
+
 								<p class="small">
 									11:41 PM | <a href="#">November 01</a> 
 								</p>
 							</div>	
 						</div>
 						<div class="row comment-section">
-							<p># of HEARTS (icon) <span># of SHARES (icon)</span></p>
 							<p>(comments icon)</p>
 							<p><strong>Kristin</strong>: &lt;3 &lt;3 &lt;3 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat....
 							</p>
@@ -91,7 +89,7 @@
 							</p>
 
 							<p class="small">
-							<a href="#"><strong>See all comments.</strong></a>
+								<a href="#"><strong>See all comments.</strong></a>
 							</p>
 						</div> <!-- .comment-section -->
 					</div>	<!-- .gallery-1 -->
@@ -99,25 +97,28 @@
 					<hr class="hr-gallery">
 
 					<div class="gallery-2">
-						<div class="row">
-							<div class="pull-left col-md-offset-1 ">
-								<img class="friend-gallery-image " src="../img/friend/jane-doe2.jpg" alt="Jane Doe 2"> 
-							</div>	
+						<div class="row posts">
+							<div class="col-md-2 col-sm-4 ">
+								<img class="img-thumbnail img-responsive friend-gallery-image " src="../img/friend/jane-doe2.jpg" alt="Jane Doe 2"> 
+							</div>
 							<div class="col-md-6 col-sm-4 pull-right">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								<p> <a href="strangerPage.html">@justin.bieber</a> : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 								</p>
+
+								<p># of HEARTS (icon) <span># of SHARES (icon)</span></p>
+
+
 								<p class="small">
 									11:41 PM | <a href="#">November 01</a> 
 								</p>
 							</div>	
 						</div>	 <!--  -->
 						<div class="row comment-section">
-							<p># of HEARTS (icon) <span># of SHARES (icon)</span></p>
 							<p>(comments icon)</p>
 							<p><strong>Kristin</strong>: &lt;3 &lt;3 &lt;3 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat....
 							</p>
@@ -132,7 +133,7 @@
 							</p>
 
 							<p class="small">
-							<a href="#"><strong>See all comments.</strong></a>
+								<a href="#"><strong>See all comments.</strong></a>
 							</p>
 
 						</div> <!-- .comment-section -->
@@ -141,25 +142,28 @@
 					<hr class="hr-gallery">
 
 					<div class="gallery-3">
-						<div class="row">
-							<div class="pull-left col-md-offset-1 ">
-								<img class="friend-gallery-image " src="../img/friend/jane-doe3.jpg" alt="Jane Doe 3"> 
+						<div class="row posts">
+							<div class="col-md-2 col-sm-4">
+								<img class=" img-thumbnail img-responsive  friend-gallery-image " src="../img/friend/jane-doe3.jpg" alt="Jane Doe 3"> 
 							</div>	
 							<div class="col-md-6 col-sm-4 pull-right">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								<p> <a href="strangerPage.html">@justin.bieber</a> : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 								</p>
+
+								<p># of HEARTS (icon) <span># of SHARES (icon)</span></p>
+
+
 								<p class="small">
 									11:41 PM | <a href="#">November 01</a> 
 								</p>
 							</div>	
 						</div>	 <!--  -->
 						<div class="row comment-section">
-							<p># of HEARTS (icon) <span># of SHARES (icon)</span></p>
 							<p>(comments icon)</p>
 							<p><strong>Kristin</strong>: &lt;3 &lt;3 &lt;3 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat....
 							</p>
@@ -174,7 +178,7 @@
 							</p>
 
 							<p class="small">
-							<a href="#"><strong>See all comments.</strong></a>
+								<a href="#"><strong>See all comments.</strong></a>
 							</p>
 
 						</div> <!-- .comment-section -->
@@ -183,25 +187,28 @@
 					<hr class="hr-gallery">
 
 					<div class="gallery-4">
-						<div class="row">
-							<div class="pull-left col-md-offset-1 ">
-								<img class="friend-gallery-image " src="../img/friend/jane-doe4.jpg" alt="Jane Doe 4"> 
+						<div class="row posts">
+							<div class="col-md-2 col-sm-4">
+								<img class="img-thumbnail img-responsive  friend-gallery-image " src="../img/friend/jane-doe4.jpg" alt="Jane Doe 4"> 
 							</div>	
 							<div class="col-md-6 col-sm-4 pull-right">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								<p> <a href="friendPage.html">@jane.doe</a> : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 								</p>
+
+								<p># of HEARTS (icon) <span># of SHARES (icon)</span></p>
+
+
 								<p class="small">
 									11:41 PM | <a href="#">November 01</a>
 								</p>
 							</div>
 						</div>	 <!--  -->
 						<div class="row comment-section">
-							<p># of HEARTS (icon) <span># of SHARES (icon)</span></p>
 							<p>(comments icon)</p>
 							<p><strong>Kristin</strong>: &lt;3 &lt;3 &lt;3 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat....
 							</p>
@@ -216,7 +223,7 @@
 							</p>
 
 							<p class="small">
-							<a href="#"><strong>See all comments.</strong></a>
+								<a href="#"><strong>See all comments.</strong></a>
 							</p>
 						</div> <!-- .comment-section -->
 					</div>	<!-- .gallery-4 -->
@@ -229,8 +236,6 @@
 	<div>
 		<a class="toTop" href="#strangerPageBody">Top (icon)</a> 
 	</div>
-
-	<hr>
 
 	<footer class="footer">
 		<div class="container-fluid">
