@@ -16,16 +16,38 @@
 </head>
 <body id="singupPageBody">
 
+	<nav class="navbar navbar-default Pagenavbar nav-singupPage">
+		<div class="container-fluid">
+			<a href="../index.html">
+				<img src="../img/favicon-logo.png" alt="Brand Logo">
+			</a>
+		</div>
+	</nav>
 
-
-	<div class="container" id="singupPage">
-		<div class="row">
+	<div class="jumbotron">
+		<div class="container">
 			<h1>Welcome to FOCUS!</h1>
-			<div class="panel panel-info singupPage-panel">
-				<h4 class="singupPage-caption text-center">Share your most precious moments with millions of people around the world! </h4>
+			<p>
+				<u><strong>About</strong></u>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magnnisi ut aliquip ex ea commodo
+					consequat.
+				
+					Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur.
+				</p> 
+			</p>
+			<p><a class="btn btn-default btn-lg" href="#" role="button">Learn more »</a></p>
+		</div> 
+	</div>	
+
+	<div class="container-fluid singupPage-content">
+		<div class="row">
+			<div class="singupPage-panel">
+				<h2 class="singupPage-caption text-center">Share your most precious moments with millions of people around the world! </h2>
 				<div class="panel-body">
 
-					<div class="col-xs-12 col-sm-12 col-md-4 col-md-offset-4">
+					<div class="hidden-xs hidden-sm col-md-4 col-md-offset-4">
 						<div class="panel panel-default">
 							<div class="panel-heading">
 								<h3 class="panel-title">Signup now.<small>It's free!</small></h3>
@@ -69,7 +91,76 @@
 						</div>
 					</div>
 
-					<div class="col-xs-12 col-sm-12 col-md-5 col-md-offset-5">
+					<div class=" hidden-xs hidden-sm   col-md-5 col-md-offset-4">
+						<div class="alternate-account">
+							<a href="#" class="btn btn-block btn-social btn-twitter">
+								<span class="fa fa-twitter"></span> Sign in with Twitter
+							</a>
+							<a href="#" class="btn btn-block btn-social btn-facebook">
+								<span class="fa fa-facebook"></span> Sign in with Facebook
+							</a>
+							<a href="#" class="btn btn-block btn-social btn-flickr">
+								<span class="fa fa-flickr"></span> Sign in with Flickr
+							</a>
+							<a href="#" class="btn btn-block btn-social btn-google">
+								<span class="fa fa-google"></span> Sign in with Google
+							</a>
+							<a href="#" class="btn btn-block btn-social btn-instagram">
+								<span class="fa fa-instagram"></span> Sign in with Instagram
+							</a>
+							<a href="#" class="btn btn-block btn-social btn-pinterest">
+								<span class="fa fa-pinterest"></span> Sign in with Pinterest
+							</a>
+						</div> <!-- .alternate-account -->
+					</div>
+
+
+				<div class="hidden-xl hidden-lg hidden-md col-sm-6 col-xs-6">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title">Signup now.<small>It's free!</small></h3>
+							</div>
+							<div class="panel-body">
+								<form action="#" method="post">
+									<div class="row">
+										<div class="col-xs-6 col-sm-6 col-md-6">
+											<div class="form-group">
+												<input type="text" name="first_name" id="first_name" class="form-control input-sm" placeholder="First Name">
+											</div>
+										</div>
+										<div class="col-xs-6 col-sm-6 col-md-6">
+											<div class="form-group">
+												<input type="text" name="last_name" id="last_name" class="form-control input-sm" placeholder="Last Name">
+											</div>
+										</div>
+									</div>
+
+									<div class="form-group">
+										<input type="email" name="email" id="email" class="form-control input-sm" placeholder="Email Address" required="required">
+									</div>
+
+									<div class="row">
+										<div class="col-xs-6 col-sm-6 col-md-6">
+											<div class="form-group">
+												<input type="password" name="password" id="password" class="form-control input-sm" placeholder="Password" required="required">
+											</div>
+										</div>
+										<div class="col-xs-6 col-sm-6 col-md-6">
+											<div class="form-group">
+												<input type="password" name="password_confirmation" id="password_confirmation" class="form-control input-sm" placeholder="Confirm Password" required="required">
+											</div>
+										</div>
+									</div>
+
+									<input type="submit" value="Register" class="btn btn-info btn-block">
+
+								</form>
+							</div>
+						</div>
+					</div>
+
+					
+					<div class="hidden-xl hidden-lg hidden-md col-sm-4 col-xs-4 col-md-offset-1">
 						<div class="alternate-account">
 							<a href="#" class="btn btn-block btn-social btn-twitter">
 								<span class="fa fa-twitter"></span> Sign in with Twitter
@@ -95,68 +186,118 @@
 				</div> <!-- .panel-body -->
 			</div>
 		</div>
-	</div> <!-- #singupPage -->
+	</div>
+</div>
 
-<hr>
 
-	<footer class="footer">
-		<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-4 col-sm-4">
 
-				<div class="footer-icons ">
-					<p>Connect with our developers:</p>
-					<a href="#"><i class="fa fa-facebook"></i></a>
-					<a href="#"><i class="fa fa-twitter"></i></a>
-					<a href="#"><i class="fa fa-linkedin"></i></a>
-					<a href="#"><i class="fa fa-github"></i></a>
-					<a href="#"><i class="fa fa-google-plus"></i></a>
-				</div>
-				
+<footer class="container-fluid">
+	<div class="row hidden-sm hidden-xs">
+		<div class="col-md-4 ">
+
+			<div class="footer-icons ">
+				<p>Connect with our developers:</p>
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-linkedin"></i></a>
+				<a href="#"><i class="fa fa-github"></i></a>
+				<a href="#"><i class="fa fa-google-plus"></i></a>
 			</div>
 
-			<div class="col-md-4 col-sm-4">
-				<p class="footer-company-name text-center">FOCUS &copy; 2017</p>
-			</div>
+		</div>
 
-			<div class="col-md-4 col-sm-4 ">
-				<!-- Trigger the modal with a button -->
-				<button type="button" class="btn btn-info pull-right" data-toggle="modal" data-target="#contact">Leave us a Message!</button>
-				<!-- Modal -->
-				<div class="modal fade" id="contact" role="dialog">
-					<div class="modal-dialog">
+		<div class="col-md-4 ">
+			<p class="footer-company-name text-center">FOCUS &copy; 2017</p>
+		</div>
 
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal">&times;</button>
-								<h4 class="modal-title">Get in touch!</h4>
-							</div>
-							<div class="modal-body">
-								<form action="#" method="post">
-									<div class="form-group">
-										<label for="email">Email address:</label>
-										<input type="email" class="form-control" id="email">
-									</div>
-									<div class="form-group">
-										<label for="textarea">Message:</label>
-										<textarea class="form-control" id="textarea" rows="2"></textarea>
-									</div>
-									<button type="submit" class="btn btn-default">Send!</button>
-								</form>
-							</div>
+		<div class="col-md-4 ">
+			<!-- Trigger the modal with a button -->
+			<button type="button" class="btn btn-info pull-right" data-toggle="modal" data-target="#contact">Leave us a message!</button>
+			<!-- Modal -->
+			<div class="modal fade" id="contact" role="dialog">
+				<div class="modal-dialog">
+
+					<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h4 class="modal-title">Get in touch!</h4>
+						</div>
+						<div class="modal-body">
+							<form action="#" method="post">
+								<div class="form-group">
+									<label for="email">Email address:</label>
+									<input type="email" class="form-control" id="email">
+								</div>
+								<div class="form-group">
+									<label for="textarea">Message:</label>
+									<textarea class="form-control" id="textarea" rows="2"></textarea>
+								</div>
+								<button type="submit" class="btn btn-default">Send!</button>
+							</form>
 						</div>
 					</div>
-				</div> <!-- .modal #contact -->
+				</div>
+			</div> <!-- .modal #contact -->
+		</div>
+	</div>	
+
+
+
+		<div class=" col-sm-12 col-xs-12 row hidden-md hidden-lg">
+
+			<div class="footer-icons text-center">
+				<p>Connect with our developers:</p>
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-linkedin"></i></a>
+				<a href="#"><i class="fa fa-github"></i></a>
+				<a href="#"><i class="fa fa-google-plus"></i></a>
 			</div>
+
 		</div>
+
+		<div class=" col-sm-12 col-xs-12 row hidden-md hidden-lg">
+			<p class="footer-company-name text-center">FOCUS &copy; 2017</p>
 		</div>
-	</footer>
+
+		<div class=" col-sm-12 col-xs-12 row hidden-md hidden-lg ">
+			<!-- Trigger the modal with a button -->
+			<button type="button" class="btn btn-info pull-right " data-toggle="modal" data-target="#contact">Leave us a message!</button>
+			<!-- Modal -->
+			<div class="modal fade" id="contact" role="dialog">
+				<div class="modal-dialog">
+
+					<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h4 class="modal-title">Get in touch!</h4>
+						</div>
+						<div class="modal-body">
+							<form action="#" method="post">
+								<div class="form-group">
+									<label for="email">Email address:</label>
+									<input type="email" class="form-control" id="email">
+								</div>
+								<div class="form-group">
+									<label for="textarea">Message:</label>
+									<textarea class="form-control" id="textarea" rows="2"></textarea>
+								</div>
+								<button type="submit" class="btn btn-default">Send!</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div> <!-- .modal #contact -->
+		</div>
+
+</footer>
 
 
-	<!-- javascripts below -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="../js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="https://use.fontawesome.com/63421b52b2.js"></script>
+<!-- javascripts below -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://use.fontawesome.com/63421b52b2.js"></script>
 </body>
 </html>

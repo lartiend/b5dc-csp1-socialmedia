@@ -1,6 +1,45 @@
+@font-face {
+	font-family: 'PlayfairDisplay-Regular';
+	src: url('../fonts/Playfair_Display/PlayfairDisplay-Regular.ttf');
+}
+@font-face {
+	font-family: 'GreatVibes-Regular';
+	src: url('../fonts/great-vibes/GreatVibes-Regular.ttf');
+}
+
+
+.tag-line {
+	margin-top: 5px;
+}
+.tag-line p  {
+	font-family: 'GreatVibes-Regular', serif;
+	font-size: 50pt;
+	color: white;
+	letter-spacing: 1px;
+	text-shadow: 10px 5px 5px #000;
+}
+.tag-line #every  {
+	padding-left: 1.5em;
+}
+.tag-line #moment  {
+	padding-left: 3em;
+}
+.singupPage-caption {
+	color: white;
+	font-size: 2rem;
+}
+p.addFriend > strong {
+	color: black;
+}
+[class*=glyphicon-chevron] {
+	color: white;
+}
+/*----------------------------------------*/
 * {
 	color: black;
-	font-family: arial;
+	font-family: serif;
+	word-spacing: 2px;
+
 }
 .Pagenavbar {
 	border-style: none;
@@ -12,11 +51,15 @@
 }
 #landingBody {
 	font-size: 16px;
-	padding-top: 55px;
+}
+.moment {
 	background-size: cover;
 	background-image: url(../img/pic4.jpg);
-	background-position: bottom;
+	background-position: right;
 	background-repeat: no-repeat;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	height: 300px;
 }
 .navbar {
 	border-radius: 0;
@@ -29,6 +72,9 @@ a[href="pages/userPage.html"] {
 [class*=fa] {
 	color: grey;
 }
+.btn-social span {
+	color: white;
+}
 .fa-facebook:hover {
 	color: #3B5998;
 }
@@ -39,7 +85,7 @@ a[href="pages/userPage.html"] {
 	color: darkviolet;
 }
 .fa-github:hover {
-	color: #000;
+	color: #fff;
 }
 .fa-google-plus:hover {
 	color: red;
@@ -51,12 +97,30 @@ textarea {
 	text-align: center;
 	padding-top: 10%;
 }
-.brand-name {
-	margin-bottom: 5%;
+.carousel-mod {
+	padding-right: 0;
+	padding-left: 0;
+}
+.carousel-inner{
+  width:100%;
+  max-height: 600px;
 }
 .brand-name-logo {
-	width: 60%;
-	height: 60%;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+.brand-name-for-sm {
+	width: 70%;
+}
+.brand-name {
+	margin-top: 7%;
+}
+.signin-login {
+	margin-top: 50%;
+}
+.brand-name-div {
+	line-height: 300px;
 }
 .footer-company-name {
 	font-size: 12px;
@@ -74,10 +138,10 @@ textarea {
 	margin: 5px;
 	text-align: center;
 }
-.landing-content p {
-	text-align: center;
+span.landing-signup {
+	margin-top: 2px;
 }
-#myCarousel {
+.landing-content p {
 	text-align: center;
 }
 .right-main {
@@ -92,12 +156,8 @@ h2 {
 [href="pages/signupPage.html"] {
 	color: #0E1C36;
 }
-.landing-hr {
-	margin: 20px;
-}
-
 footer {
-	margin-top: 10px;
+	/*margin-top: 10px;*/
 	border-top: 1px solid black;
 	background-color: black;
 }
@@ -109,6 +169,7 @@ footer {
 	margin-top: 5px;
 	background-color: grey;
 	color: white;
+	border-color: white;
 }
 
 /*--------------------------------------- signupPage ---------------------------------------*/
@@ -116,11 +177,8 @@ footer {
 	margin: 1% auto;
 }
 .singupPage-panel {
-	margin: 30px 0 50px 0;
 	padding-top: 2%;
 	padding-bottom: 3%;
-	background-color: grey;
-	border-color: #fff;
 }
 .btn-twitter, 
 .btn-facebook,
@@ -133,9 +191,6 @@ footer {
 
 /*--------------------------------------- friendPage ---------------------------------------*/
 
-.vertical-span {
-
-}
 [alt="Brand"] {
 	width: 30px;
 	height: 30px;
@@ -151,7 +206,7 @@ footer {
 	padding: 5px;
 }
 [href="userPage.html"] {
-	color: white;
+	color: #fff;
 }
 .friend-profile, .friend-left {
 	padding: 0;
@@ -195,6 +250,7 @@ footer {
 	margin-bottom: 20px;
 	border: 1px solid black;
 	text-align: center;
+	overflow: hidden;
 }
 .friend-right {
 	margin-left: 12px;
@@ -207,11 +263,15 @@ footer {
 }
 #friendPage {
 	color: white;
-	width: 1000px;
+	width: auto;
 	margin-top: 50px;
 	overflow: auto;
 }
-
+.friendPage-content {
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 0 auto;
+}
 /*--------------------------------------- strangerPage ---------------------------------------*/
 
 .addFriend-well {
@@ -260,4 +320,29 @@ footer {
 }
 i[class*=fa] {
 	font-size: 1.5em;
+}
+/*--------------------------------------------------*/
+.jumbotron {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    background-color: #262626;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.jumbotron p, .jumbotron u>strong {
+    color: #bfbfbf;
+}
+.jumbotron h1 {
+	color: white;
+}
+.nav-singupPage {
+	margin-bottom: 0;
+}
+.singupPage-content {
+	background-image: url("../img/signupPage/sunset.jpg"), url("../img/user1/pic1.jpg"), linear-gradient(orange, yellow);
+	background-blend-mode: multiply;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top top;
 }

@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-	<title>User Home Page</title>
+	<title>Peanut Butter's Home Page</title>
 
 	<!-- Bootstrap -->
 	<link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -29,7 +29,7 @@
 	</nav>
 
 	<div class="container" id="friendPage">
-		<div class="row">
+		<div class="row friendPage-content">
 
 			<div class="col-md-3 col-sm-3 friend-left">
 				<div class="container-fluid friend-profile">
@@ -47,17 +47,17 @@
 				</div> <!-- .friend-profile -->
 			</div> <!-- .friend-left -->
 
-			<div class="col-md-1 col-sm-1 vline"></div> 
+			<div class="col-md-1 col-sm-1 vline  hidden-sm hidden-xs"></div> 
 
 			<div class="col-md-8 col-sm-8 friend-right">
 				<div class="container-fluid friend-gallery">
 
 					<div class="gallery-1">
-						<div class="posts row">
-							<div class="col-md-4 col-sm-4 pull-left">
+						<div class="posts row ">
+							<div class=" col-lg-7 col-md-8 text-center">
 								<img class="img-thumbnail img-responsive friend-gallery-image" src="../img/friend/jane-doe1.jpg" alt="Jane Doe 1">
 							</div>	
-							<div class="col-md-4 col-sm-4 pull-right">
+							<div class=" col-lg-5 col-md-4 ">
 								<p><a href="#">@peanut.butter</a> : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 									tempor incididunt ut labore et  Duis ...
 								</p>
@@ -81,32 +81,28 @@
 							<p><strong>Lisa</strong>: &lt;3 &lt;3 &lt;3
 							</p>
 
-							<p><strong>Brad</strong>: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ;) Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.... <a href="#"><small>Read more</small></a>
+							<p class="hidden-md hidden-sm hidden-xs"><strong>Brad</strong>: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ;) Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.... <a href="#"><small>Read more</small></a>
 							</p>
 
-							<p><strong>Pit</strong>: :)Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.... <a href="#"><small>Read more</small></a>
+							<p class="hidden-md hidden-sm hidden-xs"><strong>Pit</strong>: :)Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.... <a href="#"><small>Read more</small></a>
 							</p>
 
 							<p class="small">
 								<a href="#"><strong>See all comments.</strong></a>
 							</p>
 						</div> <!-- .comment-section -->
+
 					</div>	<!-- .gallery-1 -->
 
 					<hr class="hr-gallery">
 
 					<div class="gallery-2">
 						<div class="row posts">
-							<div class="col-md-2 col-sm-4 ">
+							<div class="col-md-6  text-center ">
 								<img class="img-thumbnail img-responsive friend-gallery-image " src="../img/friend/jane-doe2.jpg" alt="Jane Doe 2"> 
 							</div>
-							<div class="col-md-6 col-sm-4 pull-right">
-								<p> <a href="strangerPage.html">@justin.bieber</a> : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							<div class="col-md-6 ">
+								<p> <a href="strangerPage.html">@justin.bieber</a> : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodanim id est laborum.
 								</p>
 
 								<p> <i class="fa fa-heart"></i> 100
@@ -145,10 +141,10 @@
 
 					<div class="gallery-3">
 						<div class="row posts">
-							<div class="col-md-2 col-sm-4">
+							<div class="col-md-6  text-center">
 								<img class=" img-thumbnail img-responsive  friend-gallery-image " src="../img/friend/jane-doe3.jpg" alt="Jane Doe 3"> 
 							</div>	
-							<div class="col-md-6 col-sm-4 pull-right">
+							<div class="col-md-6  ">
 								<p> <a href="strangerPage.html">@justin.bieber</a> : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -193,15 +189,13 @@
 
 					<div class="gallery-4">
 						<div class="row posts">
-							<div class="col-md-2 col-sm-4">
+							<div class=" col-md-6  text-center ">
 								<img class="img-thumbnail img-responsive  friend-gallery-image " src="../img/friend/jane-doe4.jpg" alt="Jane Doe 4"> 
 							</div>	
-							<div class="col-md-6 col-sm-4 pull-right">
+							<div class=" col-md-6 ">
 								<p> <a href="friendPage.html">@jane.doe</a> : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+									quis nostrudpteur sint occaecat cupidatat non
 									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 								</p>
 
@@ -242,62 +236,112 @@
 
 
 	<div>
-		<a class="toTop" href="#strangerPageBody"><i class="fa fa-arrow-circle-up"></i></a> 
+		<a class="toTop" href="#friendPageBody"><i class="fa fa-arrow-circle-up"></i></a> 
 	</div>
 
-	<footer class="footer">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-4 col-sm-4">
 
-					<div class="footer-icons ">
-						<p>Connect with our developers:</p>
-						<a href="#"><i class="fa fa-facebook"></i></a>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-						<a href="#"><i class="fa fa-linkedin"></i></a>
-						<a href="#"><i class="fa fa-github"></i></a>
-						<a href="#"><i class="fa fa-google-plus"></i></a>
-					</div>
+<footer class="container-fluid">
+	<div class="row hidden-sm hidden-xs">
+		<div class="col-md-4 ">
 
-				</div>
-
-				<div class="col-md-4 col-sm-4">
-					<p class="footer-company-name text-center">FOCUS &copy; 2017</p>
-				</div>
-
-				<div class="col-md-4 col-sm-4 ">
-					<!-- Trigger the modal with a button -->
-					<button type="button" class="btn pull-right" data-toggle="modal" data-target="#contact">Leave us a Message!</button>
-					<!-- Modal -->
-					<div class="modal fade" id="contact" role="dialog">
-						<div class="modal-dialog">
-
-							<!-- Modal content-->
-							<div class="modal-content">
-								<div class="modal-header">
-									<button type="button" class="close" data-dismiss="modal">&times;</button>
-									<h4 class="modal-title">Get in touch!</h4>
-								</div>
-								<div class="modal-body">
-									<form action="#" method="post">
-										<div class="form-group">
-											<label for="email">Email address:</label>
-											<input type="email" class="form-control" id="email">
-										</div>
-										<div class="form-group">
-											<label for="textarea">Message:</label>
-											<textarea class="form-control" id="textarea" rows="2"></textarea>
-										</div>
-										<button type="submit" class="btn btn-default">Send!</button>
-									</form>
-								</div>
-							</div>
-						</div>
-					</div> <!-- .modal #contact -->
-				</div>
+			<div class="footer-icons ">
+				<p>Connect with our developers:</p>
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-linkedin"></i></a>
+				<a href="#"><i class="fa fa-github"></i></a>
+				<a href="#"><i class="fa fa-google-plus"></i></a>
 			</div>
+
 		</div>
-	</footer>
+
+		<div class="col-md-4 ">
+			<p class="footer-company-name text-center">FOCUS &copy; 2017</p>
+		</div>
+
+		<div class="col-md-4 ">
+			<!-- Trigger the modal with a button -->
+			<button type="button" class="btn btn-info pull-right" data-toggle="modal" data-target="#contact">Leave us a message!</button>
+			<!-- Modal -->
+			<div class="modal fade" id="contact" role="dialog">
+				<div class="modal-dialog">
+
+					<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h4 class="modal-title">Get in touch!</h4>
+						</div>
+						<div class="modal-body">
+							<form action="#" method="post">
+								<div class="form-group">
+									<label for="email">Email address:</label>
+									<input type="email" class="form-control" id="email">
+								</div>
+								<div class="form-group">
+									<label for="textarea">Message:</label>
+									<textarea class="form-control" id="textarea" rows="2"></textarea>
+								</div>
+								<button type="submit" class="btn btn-default">Send!</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div> <!-- .modal #contact -->
+		</div>
+	</div>	
+
+
+
+		<div class=" col-sm-12 col-xs-12 row hidden-md hidden-lg">
+
+			<div class="footer-icons text-center">
+				<p>Connect with our developers:</p>
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-linkedin"></i></a>
+				<a href="#"><i class="fa fa-github"></i></a>
+				<a href="#"><i class="fa fa-google-plus"></i></a>
+			</div>
+
+		</div>
+
+		<div class=" col-sm-12 col-xs-12 row hidden-md hidden-lg">
+			<p class="footer-company-name text-center">FOCUS &copy; 2017</p>
+		</div>
+
+		<div class=" col-sm-12 col-xs-12 row hidden-md hidden-lg ">
+			<!-- Trigger the modal with a button -->
+			<button type="button" class="btn btn-info pull-right " data-toggle="modal" data-target="#contact">Leave us a message!</button>
+			<!-- Modal -->
+			<div class="modal fade" id="contact" role="dialog">
+				<div class="modal-dialog">
+
+					<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h4 class="modal-title">Get in touch!</h4>
+						</div>
+						<div class="modal-body">
+							<form action="#" method="post">
+								<div class="form-group">
+									<label for="email">Email address:</label>
+									<input type="email" class="form-control" id="email">
+								</div>
+								<div class="form-group">
+									<label for="textarea">Message:</label>
+									<textarea class="form-control" id="textarea" rows="2"></textarea>
+								</div>
+								<button type="submit" class="btn btn-default">Send!</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div> <!-- .modal #contact -->
+		</div>
+
+</footer>
 
 
 	<!-- javascripts below -->
